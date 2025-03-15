@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    list-style: none;
+
+}
+
+
+body {
+    background-image: url(./Image/coding.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* ---container---- */
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* ---logo---- */
+.logo {
+    width: 10%;
+    cursor: pointer;
+    /* padding:20px 30px; */
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.container .logo i,
+span {
+    color: white;
+}
+
+.container .logo a {
+    padding: 20px 30px;
+    background-color: rgb(192, 4, 51);
+}
+
+/* ----Menu---- */
+.container .menu {
+    width: 50%;
+
+}
+
+.container .menu ul {
+    display: flex;
+}
+
+.container .menu ul li a {
+    padding: 20px 30px;
+    display: block;
+}
+
+.container .menu ul li a:hover {
+    background-color: rgb(192, 4, 51);
+    color: white;
+}
+
+
+
+/* ---Homepage---- */
+.homepage {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ---box-center---- */
+.homepage .box-center {
+    width: 50%;
+    height: 70%;
+    background-color: rgba(245, 245, 245, 0.202);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* ----center-box-left----- */
+.homepage .box-center .center-box-left {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(192, 4, 51);
+
+}
+
+.homepage .box-center .center-box-left .css {
+    width: 100%;
+    height: 40%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.homepage .box-center .center-box-left .about-css {
+    width: 100%;
+    height: 50%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+}
+
+.homepage .box-center .center-box-left .about-css p {
+    /* line-height: 23px; */
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.homepage .box-center .center-box-left .about-css .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    transition: 0.3s;
+}
+
+.homepage .box-center .center-box-left .about-css .btn:hover {
+    transform: scale(0.9);
+}
+
+.homepage .box-center .center-box-left .css i,
+h3 {
+    color: white;
+
+}
+
+
+/* -----center-box-right---- */
+.homepage .box-center .center-box-right {
+    width: 58%;
+    height: 100%;
+    background-color: rgb(192, 4, 51);
+}
+
+/* ---top---- */
+.homepage .box-center .center-box-right .top {
+    width: 100%;
+    height: 49%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.homepage .box-center .center-box-right .top-pic {
+    width: 200px;
+    height: 200px;
+}
+
+
+
+.homepage .box-center .center-box-right .top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0px 0px 9px rgb(3, 215, 60);
+}
+
+/* --hr-- */
+.homepage .box-center .center-box-right hr {
+    width: 70%;
+    margin: auto;
+}
+
+/* ---botton---- */
+.homepage .box-center .center-box-right .botton {
+    width: 100%;
+    height: 49%;
+    /* margin-top:2%; */
+    transform: translateY(2px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.homepage .box-center .center-box-right .botton p {
+    color: white;
+    font-size: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ---Lesson-1---- */
+.lesson {
+    width: 90%;
+    height: 500px;
+    margin: auto;
+}
+
+.lesson .lesson-title {
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: white;
+}
+
+.lesson h1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    cursor: pointer;
+}
+
+.lesson .lesson-box {
+    width: 100%;
+    height: 84%;
+    margin-top:10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lesson .lesson-box .box-for-learn {
+    width: 32%;
+    height: 100%;
+    background-color: rgb(192, 4, 51);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.lesson .lesson-box .box-for-learn i{
+    font-size:200px;
+    cursor: pointer;
+    color:white;
+    transition: 0.4s;
+
+}
+
+.lesson .lesson-box .box-for-learn i:hover{
+    transform: scale(105%,105%);
+}
+
+/* ------Lesson-2----- */
+.lesson-2{
+    width:90%;
+    margin:auto;
+    height:370px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.lesson-2 .lesson-2-box{
+    width:19%;
+    height: 100%;
+    background-color: rgb(192, 4, 51);
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius: 9px;
+}
+
+.lesson-2 .lesson-2-box i{
+    font-size:130px;
+    color:white;
+    transition: 0.4s;
+
+}
+
+.lesson-2 .lesson-2-box i:hover{
+    transform: scale(105%,105%);
+}
+footer{
+    margin-top:100px;
+    width:100%;
+    height:100px;
+    background-color: rgba(245, 245, 245, 0.202);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .btn-footer{
+    padding:15px 30px;
+    background-color:white;;
+    border:none;
+    color:black;
+    cursor: pointer;
+    border-radius: 3px;
+    
+}
+
+footer .btn-footer:focus{
+    outline: 2px solid #c00433;
+}
